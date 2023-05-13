@@ -35,7 +35,6 @@
 
     <nav class="navbar navbar-expand-md bg-light my-3">
         <div class="container">
-
                 <div class="navbar-brand">
                     <a href="index.php">
                         <h1 class="visually-hidden">Imobiliária</h1>
@@ -57,9 +56,20 @@
                     </ul>
                 </div>
         </div>
-
     </nav>
 </header>
+
+<?php
+$getApp = filter_input(INPUT_GET, 'app', FILTER_SANITIZE_SPECIAL_CHARS);
+
+if (empty($getApp)) {
+    require 'widget/home.php';
+}elseif (!empty($getApp) && file_exists("widget/{$getApp}.php")) {
+    require "widget/{$getApp}.php";
+}else {
+    echo "Página não encontrada!";
+}
+?>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
