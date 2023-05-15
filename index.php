@@ -33,11 +33,11 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-md bg-light my-3">
+    <nav class="navbar navbar-expand-md my-3">
         <div class="container">
                 <div class="navbar-brand">
                     <a href="index.php">
-                        <h1 class="visually-hidden">Imobiliária</h1>
+                        <h1 class="text-hide">Imobiliária</h1>
                         <img src="assets/images/logo.png" alt="Logo inclui o nome da empresa, escrito como 'imobiliária'." class="d-inline-block" width="280">
                     </a>
                 </div>
@@ -73,5 +73,7 @@ if (empty($getApp)) {
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<script src="node_modules/bootstrap-select/dist/js/i18n/defaults-pt_BR.min.js"></script>
 </body>
 </html>
