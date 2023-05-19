@@ -2795,6 +2795,32 @@ select.selectpicker {
   font-size: 0.875em;
 }
 
+.main_footer {
+  background: url(../../assets/images/footer.png) repeat-x bottom center;
+  background-size: 150px;
+}
+.main_footer .container {
+  padding-bottom: 100px;
+}
+.main_footer h2 {
+  font-size: 1.4rem;
+  border-bottom: 1px solid #ccc;
+}
+.main_footer ul {
+  padding: 0;
+}
+.main_footer ul li {
+  list-style: none;
+  margin-bottom: 6px;
+}
+.main_footer ul li a {
+  color: #666;
+}
+
+.main_copyright p {
+  font-size: 0.8rem;
+}
+
 .main_slide {
   background-image: url("../../assets/images/front1.jpg");
   background-position: center 65%;

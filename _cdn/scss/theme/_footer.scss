@@ -1,0 +1,32 @@
+.main_footer {
+  background: url(../../assets/images/footer.png) repeat-x bottom center;
+  background-size: 150px;
+
+  .container {
+    padding-bottom: 100px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 6px;
+
+      a {
+        color: #666;
+      }
+    }
+  }
+}
+
+.main_copyright {
+  p {
+    font-size: 0.8rem;
+  }
+}

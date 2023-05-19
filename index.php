@@ -85,6 +85,46 @@ if (empty($getApp)) {
     </div>
 </article>
 
+ <section class="main_footer bg-light">
+     <div class="container pt-5">
+         <div class="row justify-content-around text-muted">
+             <div class="col-3">
+                 <h2 class="pb-2">Navegue <span class="text-front">Aqui!</span></h2>
+                 <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#" class="text-front">Destaque</a></li>
+                     <li><a href="#">Alugar</a></li>
+                     <li><a href="#">Comprar</a></li>
+                     <li><a href="#">Contato</a></li>
+                 </ul>
+             </div>
+             <div class="col-6">
+                 <h2 class="pb-2">Nos <span class="text-front">Conheça!</span></h2>
+                 <p>Nossa maior satisfação é lhe ajudar a encontrar seu imóvel dos sonhos nos bairros do Sul da ilha Magia, em Florianóopolis.</p>
+
+                 <h2 class="pb-2">Quer <span class="text-front">Investir?</span></h2>
+                 <p>Entre em contato com a nossa equipe e valos lhe informar sempre sobre os melhores negócios.</p>
+             </div>
+             <div class="col-3">
+                <button class="btn btn-front icon-facebook icon-notext"></button>
+                <button class="btn btn-front icon-twitter icon-notext"></button>
+                <button class="btn btn-front icon-instagram icon-notext"></button>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <div class="main_copyright py-3 bg-front text-white text-center">
+     <div class="container">
+         <div class="row">
+             <div class="col-12">
+                 <p class="mb-0">Imobiliária | CRESCI 1234 | Avenida das Flores, 1234 - Jardim Primavera - São Paulo/SP</p>
+                 <p class="mb-0">Todos os Direitos Reservados - Valeska Marques &copy;</p>
+             </div>
+         </div>
+     </div>
+ </div>
+
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
