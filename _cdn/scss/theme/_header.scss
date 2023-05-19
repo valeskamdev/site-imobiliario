@@ -9,3 +9,18 @@
     }
   }
 }
+
+.main_header_navbar {
+  img {
+    width: 165px;
+    vertical-align: unset;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .main_header_navbar {
+    img {
+     width: 280px;
+    }
+  }
+}

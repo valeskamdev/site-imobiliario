@@ -2795,6 +2795,16 @@ select.selectpicker {
   font-size: 0.875em;
 }
 
+.main_header_navbar img {
+  width: 165px;
+  vertical-align: unset;
+}
+
+@media screen and (min-width: 576px) {
+  .main_header_navbar img {
+    width: 280px;
+  }
+}
 .main_footer {
   background: url(../../assets/images/footer.png) repeat-x bottom center;
   background-size: 150px;
@@ -2823,7 +2833,7 @@ select.selectpicker {
 
 .main_slide {
   background-image: url("../../assets/images/front1.jpg");
-  background-position: center 65%;
+  background-position: center 45%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 532px;

@@ -14,18 +14,18 @@
  <header class="main_header">
     <div class="header_bar bg-front">
         <div class="container">
-            <div class="row">
-                <div class="col-4 d-flex justify-content-center align-items-center p-2 text-white">
+            <div class="row justify-content-around">
+                <div class="d-none d-lg-flex col-lg-4 justify-content-center align-items-center p-2 text-white">
                     <i class="icon-location-arrow"></i>
                     <p class="my-auto ml-3">Avenida das Flores, 1234 - Jardim Primavera<br>São Paulo/SP</p>
                 </div>
 
-                <div class="col-4 d-flex justify-content-center align-items-center p-2 text-white">
+                <div class="d-none d-md-flex col-md-6 col-lg-4 justify-content-center align-items-center p-2 text-white">
                     <i class="icon-clock-o"></i>
                     <p class="my-auto ml-3">Seg/Sex: 09:00h - 18:00h<br>Sáb/Dom: Plantão</p>
                 </div>
 
-                <div class="col-4 d-flex justify-content-center align-items-center p-2 text-white">
+                <div class="d-flex col-4 col-md-6 col-lg-4 justify-content-center align-items-center p-2 text-white">
                     <i class="icon-envelope"></i>
                     <p class="my-auto ml-3">contato@valeska.com<br>+55 (11) 12345-6789</p>
                 </div>
@@ -33,17 +33,15 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-md my-3">
+    <nav class="main_header_navbar navbar navbar-expand-md navbar-light my-3">
         <div class="container">
                 <div class="navbar-brand">
                     <a href="index.php">
                         <h1 class="text-hide">Imobiliária</h1>
-                        <img src="assets/images/logo.png" alt="Logo inclui o nome da empresa, escrito como 'imobiliária'." class="d-inline-block" width="280">
+                        <img src="assets/images/logo.png" alt="Logo inclui o nome da empresa, escrito como 'imobiliária'." class="d-inline-block img-fluid">
                     </a>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -88,7 +86,7 @@ if (empty($getApp)) {
  <section class="main_footer bg-light">
      <div class="container pt-5">
          <div class="row justify-content-around text-muted">
-             <div class="col-3">
+             <div class="col-12 col-md-3 col-lg-3">
                  <h2 class="pb-2">Navegue <span class="text-front">Aqui!</span></h2>
                  <ul>
                      <li><a href="#">Home</a></li>
@@ -98,14 +96,14 @@ if (empty($getApp)) {
                      <li><a href="#">Contato</a></li>
                  </ul>
              </div>
-             <div class="col-6">
+             <div class="col-12 col-md-9 col-lg-6">
                  <h2 class="pb-2">Nos <span class="text-front">Conheça!</span></h2>
                  <p>Nossa maior satisfação é lhe ajudar a encontrar seu imóvel dos sonhos nos bairros do Sul da ilha Magia, em Florianóopolis.</p>
 
-                 <h2 class="pb-2">Quer <span class="text-front">Investir?</span></h2>
+                 <h2 class="pb-12">Quer <span class="text-front">Investir?</span></h2>
                  <p>Entre em contato com a nossa equipe e valos lhe informar sempre sobre os melhores negócios.</p>
              </div>
-             <div class="col-3">
+             <div class="col-12 col-md-12 col-lg-3 text-center">
                 <button class="btn btn-front icon-facebook icon-notext"></button>
                 <button class="btn btn-front icon-twitter icon-notext"></button>
                 <button class="btn btn-front icon-instagram icon-notext"></button>
