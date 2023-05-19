@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<header class="main_header">
+ <header class="main_header">
     <div class="header_bar bg-front">
         <div class="container">
             <div class="row">
@@ -70,6 +70,20 @@ if (empty($getApp)) {
     echo "Página não encontrada!";
 }
 ?>
+
+<article class="main_optin bg-dark text-white py-5">
+    <div class="container">
+        <div class="row mx-auto" style="max-width: 600px">
+            <h2>Quer ficar por dentro das novidades?</h2>
+            <p>Deixe o seu nome e o seu melhor e-mail nos campos abaixo e nós vamos lhe informar sobre os melhores negócios de todos os lançamentos de sul da ilha</p>
+            <form action="">
+                <input type="text" class="form-control" name="name" placeholder="Digite seu nome" size="50">
+                <input type="email" class="form-control" name="email" placeholder="Digite seu melhor e-mail" size="50">
+               <button type="submit" class="btn btn-front">Me avise!</button>
+            </form>
+        </div>
+    </div>
+</article>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
