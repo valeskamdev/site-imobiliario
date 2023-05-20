@@ -27,7 +27,7 @@
 
                 <div class="d-flex col-4 col-md-6 col-lg-4 justify-content-center align-items-center p-2 text-white">
                     <i class="icon-envelope"></i>
-                    <p class="my-auto ml-3">contato@valeska.com<br>+55 (11) 12345-6789</p>
+                    <p class="my-auto ml-3"><a href="mailto:valeskamdev@gmail.com" class="text-white">valeskamdev@gmail.com</a><br><a href="tel:+5511967023986" class="text-white">+55 (11) 967023986</a></p>
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@ if (empty($getApp)) {
          <div class="row">
              <div class="col-12">
                  <p class="mb-0">Imobiliária | CRESCI 1234 | Avenida das Flores, 1234 - Jardim Primavera - São Paulo/SP</p>
-                 <p class="mb-0">Todos os Direitos Reservados - Valeska Marques &copy;</p>
+                 <p class="mb-0">Todos os Direitos Reservados - <a href="https://github.com/valeskamdev" class="text-white">Valeska Marques</a> &copy;</p>
              </div>
          </div>
      </div>

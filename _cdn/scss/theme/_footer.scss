@@ -28,5 +28,13 @@
 .main_copyright {
   p {
     font-size: 0.8rem;
+
+    a {
+      text-decoration: underline;
+
+        &:hover {
+          color: #1d2124;
+        }
+    }
   }
 }

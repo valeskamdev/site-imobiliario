@@ -2830,6 +2830,12 @@ select.selectpicker {
 .main_copyright p {
   font-size: 0.8rem;
 }
+.main_copyright p a {
+  text-decoration: underline;
+}
+.main_copyright p a:hover {
+  color: #1d2124;
+}
 
 .main_slide {
   background-image: url("../../assets/images/front1.jpg");
@@ -2876,6 +2882,28 @@ select.selectpicker {
 .main_list_group .main_list_group_items .main_list_group_items_item a div h2 {
   color: #f5f5f5;
   font-size: 1.2em;
+}
+
+.main_contact form {
+  padding: 20px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 4px;
+  width: 600px;
+  max-width: calc(100% - 40px);
+}
+.main_contact form h3 {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.main_contact_types h2 {
+  font-size: 1.4em;
+  color: #666;
+}
+.main_contact_types p {
+  font-size: 0.875em;
 }
 
 .img-responsive-16by9 {
