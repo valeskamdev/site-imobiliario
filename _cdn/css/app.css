@@ -2839,7 +2839,7 @@ select.selectpicker {
 
 .main_slide {
   background-image: url("../../assets/images/front1.jpg");
-  background-position: center 45%;
+  background-position: center 40%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 532px;
@@ -2904,6 +2904,47 @@ select.selectpicker {
 }
 .main_contact_types p {
   font-size: 0.875em;
+}
+
+.main_property h2 {
+  margin: 40px 0px 20px 0px;
+}
+@media screen and (min-width: 280px) {
+  .main_property .main_property_content .carousel-item img {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 390px) {
+  .main_property .main_property_content .carousel-item img {
+    height: 420px;
+  }
+}
+.main_property .main_property_content_price .main_property_content_price_small {
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+.main_property .main_property_content_structure .main_property_content_structure_item {
+  padding: 6px 12px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  background-color: #36BA9B;
+  border-radius: 4px;
+  border: 1px solid #2D9A81;
+  color: #ffffff;
+}
+.main_property .main_property_contact {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.main_property .main_property_contact h2 {
+  font-size: 1.2em;
+  padding: 20px;
+  margin: 0px;
+}
+.main_property .main_property_contact form {
+  padding: 20px;
+  background-color: #F9F9F9;
+  border: 1px solid #CCCCCC;
 }
 
 .img-responsive-16by9 {

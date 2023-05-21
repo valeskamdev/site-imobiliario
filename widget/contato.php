@@ -36,12 +36,12 @@
             <div class="col-12 col-md-4 py-5">
                 <h2 class="icon-envelope">Por E-mail</h2>
                 <p>Nossos atendentes vão entrar em contato com você assim que possível</p>
-                <p class="pt-2"><a href="mailto:valeskamdev@gmail.com" class="text-front">valeskamdev@gmail.com</a></p>
+                <p class="pt-2"><a href="mailto:contato@imobiliaria.com" class="text-front">contato@imobiliaria.com</a></p>
             </div>
             <div class="col-12 col-md-4 py-5">
                 <h2 class="icon-phone">Por Telefone</h2>
                 <p>Estamos disponíveis nos números abaixo no horário comercial</p>
-                <p class="pt-2"><a href="tel:+5511967023986" class="text-front">+55 (11) 967023986</a></p>
+                <p class="pt-2"><a href="tel:+5511987654321" class="text-front">+55 (11) 98765-4321</a></p>
             </div>
             <div class="col-12 col-md-4 py-5">
                 <h2 class="icon-share-alt">Por Redes Sociais</h2>

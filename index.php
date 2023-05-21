@@ -27,7 +27,7 @@
 
                 <div class="d-flex col-4 col-md-6 col-lg-4 justify-content-center align-items-center p-2 text-white">
                     <i class="icon-envelope"></i>
-                    <p class="my-auto ml-3"><a href="mailto:valeskamdev@gmail.com" class="text-white">valeskamdev@gmail.com</a><br><a href="tel:+5511967023986" class="text-white">+55 (11) 967023986</a></p>
+                    <p class="my-auto ml-3"><a href="mailto:contato@imobiliaria.com" class="text-white">contato@imobiliaria.com</a><br><a href="tel:+5511987654321" class="text-white">+55 (11) 98765-4321</a></p>
                 </div>
             </div>
         </div>
